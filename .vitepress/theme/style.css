@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+:root {
+  --vp-nav-bg-color: rgba(255, 255, 255, 0.9);
+}
+
+.dark:root {
+  --vp-nav-bg-color: rgba(0, 0, 0, 0.9);
+}
+
+.VPNavBar.home {
+  @apply bg-indigo-200;
+  backdrop-filter: blur(12px);
+}

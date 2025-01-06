@@ -1,0 +1,23 @@
+{
+  "name": "pinece",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "markdown-it-mathjax3": "^4.3.2",
+    "vitepress": "^1.5.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "4.0.0-beta.8",
+    "tailwindcss": "4.0.0-beta.8"
+  }
+}
